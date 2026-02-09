@@ -13,8 +13,8 @@ The API is available at https://test-task-api.771707.xyz/api
 ```bash
 npm install
 cp .env.example .env
-cp .env.example .env.test
-cp .env.example .env.dev
+cp .env.test.example .env.test
+cp .env.dev.example .env.dev
 # Change the environment variables in the .env files.
 npm run db:migrate
 npm run db:seed
