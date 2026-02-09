@@ -1,6 +1,6 @@
 const request = require('supertest')
-const app = require('../app')
 const { resetDb, closeDb } = require('./db')
+const app = require('../app')
 
 describe('session endpoints', () => {
   beforeEach(async () => {

@@ -1,6 +1,6 @@
 const request = require('supertest')
-const app = require('../app')
 const { resetDb, seedWorksheet, closeDb } = require('./db')
+const app = require('../app')
 
 describe('worksheet endpoints', () => {
   beforeEach(async () => {
